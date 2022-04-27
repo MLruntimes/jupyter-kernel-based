@@ -77,16 +77,16 @@ ENV MPLCONFIGDIR=/home/cdsw/.cache \
 
 
 ENV PYTHON3_VERSION=3.9.10 \
-   ML_RUNTIME_KERNEL="Python 3.9" \
+   ML_RUNTIME_KERNEL="Julia" \
    ML_RUNTIME_EDITION=Standard \
    ML_RUNTIME_DESCRIPTION="Runtimes rock!"
 
 ENV ML_RUNTIME_EDITOR="PBJ Workbench" \
    ML_RUNTIME_EDITION="Tech Preview" \
-   ML_RUNTIME_KERNEL="Python 3.9" \
-   ML_RUNTIME_JUPYTER_KERNEL_NAME="python3" \
+   ML_RUNTIME_KERNEL="Julia" \
+   ML_RUNTIME_JUPYTER_KERNEL_NAME="julia-1.7" \
    ML_RUNTIME_JUPYTER_KERNEL_GATEWAY_CMD="jupyter kernelgateway --config=/home/cdsw/.jupyter/jupyter_kernel_gateway_config.py --debug" \
-   ML_RUNTIME_DESCRIPTION="Custom PBJ Workbench Python runtime provided by Cloudera" \
+   ML_RUNTIME_DESCRIPTION="Custom PBJ Workbench R runtime provided by Cloudera" \
    JUPYTERLAB_WORKSPACES_DIR=/tmp
 
 ENV \
